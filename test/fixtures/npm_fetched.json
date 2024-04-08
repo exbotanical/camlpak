@@ -1,0 +1,1770 @@
+{
+  "_id": "@magister_zito/eslint-config",
+  "_rev": "29-9fc2f8b18cc5a78554c3bbf0a77625e3",
+  "name": "@magister_zito/eslint-config",
+  "dist-tags": { "latest": "0.15.0" },
+  "versions": {
+    "0.0.2": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.2",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.2",
+        "@magister_zito/eslint-config-react": "^0.0.2",
+        "@magister_zito/eslint-config-vue": "^0.0.2",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "dcca434789f69175fa48040363e9945da8951cfc",
+      "_id": "@magister_zito/eslint-config@0.0.2",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-9oE9TY8gAXwaRCP/6rXX4lIN4hD2paIcPAnpv7ie5SVZAKkIp8A9qxaE36kWfe0ZHW6km8MD3CyWEhxLogYAKQ==",
+        "shasum": "245e7d00728c8ad77f73bec9a59403c2c0be8cad",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2298,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhQXf3CRA9TVsSAnZWagAAC9cP/RGXMYijbfucitAGIpYR\nGfiiXEnRtQhDkr6WFD+2qP/p4k59/kE5B2iJFcxh/1GhakC8UeFIYxXvvrGH\nFucWlA6ot2XmUNTpcysE4EliOc2OYTr7LTAcIyFnRMfng/OmPHbVVyr+10Ch\nwsPRkMTCl8isuvCCXPMyUs1srxd+HsIoyvFb6LtgflRzrcqvahE3YrukTI8a\nVBVhCddqtZ57hyAnQ+A3F5hDGLRcJGkaTmQ2K0OaV9xJHWA25jIKtOCpTzZZ\nflc2rrK5n0g9bQhcQGSwulx/WMa0gQYU65y+m3gs6A5J8RIs0RICY4jMKN3c\nw9PZ/bqZm46kLaY6JsidbctHO+7ll0/K7c4hw7JXRqXkpFD4joNwImj8/PXL\npcC+OW/gencNivvTUoJvzQEWwQZsWhGNY3EcCKyeeTrr+91gLcqNynIGNtAm\ngvprexEvl/cvlmnPGzdGEA1/WEhhjHJRS79FW01gMul8wR/YbBgbj9uIs2U+\ntK44TUSmIHZK2R8atMNDO7t5czKNVrfXm4NZn4m94jTYnlLvHdjGV+bteUq8\nFgK5pL2+HLmY6AUmLCVkgBlxE0ilFtsGkcpzizFyZgDmaNzsUXgq0rA6yjJA\nki7ovMsK4vl+hkBeVOySp8xLYt1CCYzB4srwQ+vuqihwazj/J24XuhObXqad\nsair\r\n=8uVV\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIG5NGmFEBymO1jP4Xy7VDj+4ILmFINrrB1DCz3bXpD2nAiB/r6qlgRIgK2inxuC7S8sVBOFeffvApqLj/77IihKIZA=="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.2_1631680503237_0.44965419707216614"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.3": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.3",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.3",
+        "@magister_zito/eslint-config-react": "^0.0.3",
+        "@magister_zito/eslint-config-vue": "^0.0.3",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "0179ed4ac5b9d68bc8be1c345a1970b2fb698a96",
+      "_id": "@magister_zito/eslint-config@0.0.3",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-ffTo2G1rfUb+JX0obgdpwhEF1tRn2QyBuBHDguoHI7604wQRsn/2vriXBDY7tsjdTyfqgaeDJ3C3VR/Ed435Mw==",
+        "shasum": "70e917b843a544daea884dda9064b28d9d393956",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2336,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhQX5ICRA9TVsSAnZWagAAnQ0QAJfJj0VXFdJaSpiCfg//\nTk1thNCexz3x7WJ+7Edq2Aiic7oD7hjSxHlQevAaBkDG7fRwB+Os8OBACitL\nahzRvrlBCV2DeT3NHjKi1XW2pa73s6Ly3yFCIn5wWS0S7DvogDYvbQ/wwZP/\n8UudvJImX6JRnZw/+s2IfYUabXeBqGqZzRFX0YWnia9918H134vt3PAwc5sr\n7PbBHe8EQoQI06SXuLusfBq27/1Ns0eUtCcH6+nsLXloZ2vJeWGaPDHuGGRd\nhoXwqI8DH7IudQnXiDmuPgZSGErVglczKTbdpbdPVNpnNiklWLBMKHxpHD6B\n/8rOHRpj5SjiZiJxwiZrrUOot6HZphI85vwNbLdPHdurONZzv4UKQ4qyOMjj\nYb6zCO7ZaNF3oTQS9jfIwHeQV1j56fP/JGC+vwgmueDilwkZ0JXnVZTgDGwU\nvZyWi2cdScbQmHjRy8c9Zl2K7K6yu3OT3sXmRaoWAh6tArZJbkKH+PY3Jsrd\noKvUxe9ny5OLZbnEZI2zYwuKEbRlUrpzrCJ2YTaIqChO8KSx3JgYPCvd5VSd\n54SVVFQc2V5R0SoU7nm5FmjjAosjhOqVQBu9w+hAysKACI2jdmJLeaiqyxI0\ne9gzsJa8rDFmGPQOAhSbkc6+EcZrBZ4qkFurR4RCm5X3Br4u9OykuQE2I3AO\nyS47\r\n=0Wnj\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIDkMvEv6i43/nhUC6TGSbf8fDnBPWz5NkWu3X7sPjUGVAiB1dZq55XoSc6XVsSPymQUOD3jlez8p7AmRIIdnnQd/3g=="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.3_1631682120566_0.8147225329028553"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.4": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.4",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.4",
+        "@magister_zito/eslint-config-react": "^0.0.4",
+        "@magister_zito/eslint-config-vue": "^0.0.4",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "250a4c4d4267a62fab214f483502f896b20e9b88",
+      "_id": "@magister_zito/eslint-config@0.0.4",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-L8TfhGUvQQaB5GOZ37Q+cWYBfnHAWLe/Bq2Y23y4M6w/8gSbCGSo94CYtaqqs/zvQ3Y5G8wlyx2fqOL2fXSFfg==",
+        "shasum": "5997a1d8b8ce1e40c5df8d4756f57c87ef48336e",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2336,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhQY69CRA9TVsSAnZWagAAMIoP/RuuEctNK/IErxi124Qd\nfO8yliLJ5UMjuBI73fbearmyJa5oQ6xV/lyg8Yb16xeanmf89hqCqsl4h+Mg\n4rLtPll63H4gPMZwpqNTEnhY9lfVq43lG+dkwZeru6sTp4SefkgOHVi7w57P\nBAwHgOS22bqxX46BqEwMEa2qP6rlJFD6uuOIuz+JRZVhkUlZxvFm5WnCpCGh\ne4+TY3VLka3if/RubPmPnFrCYUsQ6n9CkZcZmiXDecbs2/qUWfsiBFIs7Ci9\nkgtvw/QBr22sCDrTRP+5yVZVQW0lDkQQjS+wwJSDVEL1h1NmYPcrzCi0RuOw\nTrvZRg1A9wisEDmggxzOFvk4Shsd2B+zgHq5eJeG6ELyhzSko8RW0Wlf3o4Y\nWG34gUPIPc83zhgpPWif2qsuDev20j6+DRkhQijXcUjD1wubfMbzkuJn16sy\nFgP6P7Lrmce5WmrJMrUPizQhCtqAWuy84kzcrhwn6cNRizPBMqgSuHXnq/iw\nhMLhyJRRDKauvhfXqQBdvLqQCqfjFtNtWg/cQ6eTW1EO35pFyEZGb5ZthblS\nzAu7G8AWZ9nRUqHAA47FIiYoDsGnfSHa6blZ5uItXxoekVsT3bah/w83cNlN\np80djG9vCNsgbfXqZR+1TYnh1yq2KI4Rs3lE3kt6Qf4fOv3KD+3Q6RBYejQx\nvCR/\r\n=xQK0\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDvMLnOQKdwKbxMcKarmfXqaHYNiTFWcUWUF39z8iqlwAIhANm3A1rosTybbK0fKRo+UUsLpfQ2eYR6z+v6sasCp7Jk"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.4_1631686333862_0.4783165863582115"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.5": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.5",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.5",
+        "@magister_zito/eslint-config-react": "^0.0.5",
+        "@magister_zito/eslint-config-vue": "^0.0.5",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "27c65741c75931ada89c76ca31b7b8fbb88faa4b",
+      "_id": "@magister_zito/eslint-config@0.0.5",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-5T19MKLtr4DBw7gF73E95jUcNTJFdWDCFl5IwfiB5u9CLQW7Hqz3+Z52elhOMKcy2htSyKoe39X2/KC789Y0RA==",
+        "shasum": "8b2b2df0a7c24b6873ed32ddfd61f8bfb425f1a3",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.5.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2329,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhQZZPCRA9TVsSAnZWagAAyzIP/A7FaQO6JtgdJWEgqnPD\nZyYyg3weS4txYZ6FrBRzF12KKoOIq9wBbPLbOOAPNNqhDighKrsRI7A/gdrk\ncB+BNJmxqw1wTA78OArmTEa+IwRWWSj69lMvNoCf97wrEN6KwQNJ/y62bh7u\nBO3KK3W3c5YBiNkuLep9cUm+Z2C28tsS5POXD6Zr+jV7oCHdd2xPv4kazSg1\nTv8vHXLC3NvOxTBo6zdK4rrxlGUnGl76+a2REhk2m0+Cr8YjdZWv1GQ5DiZD\nUc7iPRVeQ1zr+NZpgSBsxq9VuLKECk0zuzRKdHSwhasTBY4QNUPiEohjEoKc\nX8d+xQtpAqXtPVu8Htm+bRUB3lfLlT3QPsmEZgQ/W6QioIfRoXocJKF36Ylv\n9Sna1B8ImJFZsFyKxp7XonFcDi9mm/SiUSnBtOIrJbF4T99lZrMkmcEYcUY+\n8Sg8rzV/Kdnfm6w9RiK30Le0kHNTY4sQRXdgOnHJuwky2vlU5Uqjhxlyxbac\n8lRFqnZSCmsUYvmjNZROFlCb1/GPX/azpIsq9kQBygTAfPWwb60PNO2vKW5r\nd5zAZ5iudJxftxeoeXx5lQHRMds3NxKzHZZsCGMB6Kqv2oeZieBE9UMLZjsw\nDZl38fWX02qdy154WISSUPCzSsZmLh54Zmh5mkvXmamYqbzhPZd1J6HnkwTh\nKEeU\r\n=uHa4\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDPhf01UnDDKE27TltSm0LzM8AXJ6QiNzJQfcyC2E/+9AIhAPfx5p0MP2/N++nBoM+oe+qwT+mveOZ0YvlU/8rDTh4i"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.5_1631688271118_0.1470006682923093"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.6": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.6",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.6",
+        "@magister_zito/eslint-config-react": "^0.0.6",
+        "@magister_zito/eslint-config-vue": "^0.0.6",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "1c9f71d91d4f56ecd627abad71cc1e0de5666d25",
+      "_id": "@magister_zito/eslint-config@0.0.6",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-O/EOYjxiSA2x4LVMLjpNKtVLcK3vMYa3U9syY63MHraCl6urDeWdADx8WPNcr7gyqvHugcFh85wuS6dky11o2g==",
+        "shasum": "79e5a087703bd8c296ccc7276407dc7a1cb7f602",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.6.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2329,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIGOyVoYtPlIkSX2b552qME0k9lZJLjF0/6Wbw1qZvSOBAiA9bZBYziOupKTsyBwd+yuvUoQfNaFcqUS2PB1V+L8AfA=="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.6_1633237570406_0.6031634536192703"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.7": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.7",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.7",
+        "@magister_zito/eslint-config-react": "^0.0.7",
+        "@magister_zito/eslint-config-vue": "^0.0.7",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "28af62de5ea38f41e31be7cba2c621b70098ac6c",
+      "_id": "@magister_zito/eslint-config@0.0.7",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-gsCyHv8R/tgOWEdAjEhjwHU0q10m29pwekIl8knzgs4TA0enx0ff+uP7u7tBDEBIJvin6I0P+5kCPYzGgUpbWg==",
+        "shasum": "fffaa30ddb7561bdf91cd81402fb0d9a449f9287",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.7.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2329,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIBR+Jz2nsVrZhV3jaD7IiN1cXbacOTfwHstBiVjFGy0WAiAxxzg2yksloXNrvRq8v9TySjwtnSdO3/CvLi7bGAuODw=="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.7_1633238536252_0.2165024599359675"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.8": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.8",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.8",
+        "@magister_zito/eslint-config-react": "^0.0.8",
+        "@magister_zito/eslint-config-vue": "^0.0.8",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "73be0d30d83c4e718d487e080286b153e5fd4ef7",
+      "_id": "@magister_zito/eslint-config@0.0.8",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-o7hVmpI0QBwlMbpMCKmVzA6Pt42CUui9Ow0HnWYhHU7cHU8Ib5MO/Slt4j1e8ieAHN+0vs7SvDclDAxQ0cNrvA==",
+        "shasum": "dee8197fbc894c7b2187f70535f5f6bae0a2143f",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.8.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2329,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDbpY0y8Ky7R62Io+8u4fKvgs2BIf7MbrRfeyWgsdd0pQIhAPfGFpfZbY32KB/wvx54MJ+VmfZkiYXKPqfHLm+K93T7"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.8_1633238907734_0.028859082820018145"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.9": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.9",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.9",
+        "@magister_zito/eslint-config-react": "^0.0.9",
+        "@magister_zito/eslint-config-vue": "^0.0.9",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "cc82269baa05806d704dbf8f48474b1a38e21efa",
+      "_id": "@magister_zito/eslint-config@0.0.9",
+      "_nodeVersion": "15.8.0",
+      "_npmVersion": "lerna/4.0.0/node@v15.8.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-s8jKXY45cm02tjiME+DbBvzf9vEvSIumDm5Kg0P3KqwOJ+UjvGUVbDfL6lxjAynfDvP5ak8k6yhCdBAo17oZLg==",
+        "shasum": "9f1a1e10f833e1f054c2896ee01b1d888901e3aa",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.9.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2329,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHB5SCDqCwNeoqqh/drT8JXwgOzcjh/9P4ifdYGwFy8pAiA8Z5S4+j2oWLEh9BKDWKk5gZHBMv1dvaIcU/PCa5Q4FA=="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.9_1633239055566_0.5658664763004173"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.10": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.10",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.10",
+        "@magister_zito/eslint-config-react": "^0.0.10",
+        "@magister_zito/eslint-config-vue": "^0.0.10",
+        "@typescript-eslint/eslint-plugin": "^4.31.0",
+        "@typescript-eslint/parser": "^4.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.1.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsonc": "^1.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.0",
+        "jsonc-eslint-parser": "^1.3.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "e453bd808cbf21b8e107c33497dbd162ad3b246a",
+      "_id": "@magister_zito/eslint-config@0.0.10",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-8Sd+4/AEYla6fSr5xAVno4adQSp0YFN15Ws1c+YMc9LrINUEnfCgaZnNaYYf2m+c6UCZydTDqs+UuJBQIK1UbQ==",
+        "shasum": "d6febb3832f4bbe2f4fdc6bbc48029cec04729ba",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.10.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2333,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIESmgZh2+2EKWh/CYVEMTCAptamc7E/JXLtcI9TX06CoAiEA0d6/DtS2gy/SiqHUyRzmS0damF/SOuEhWZU2ex7kf4I="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.10_1635552070413_0.3949530491112958"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.0.11": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.0.11",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.0.11",
+        "@magister_zito/eslint-config-react": "^0.0.11",
+        "@magister_zito/eslint-config-vue": "^0.0.11",
+        "@typescript-eslint/eslint-plugin": "^4.33.0",
+        "@typescript-eslint/parser": "^4.33.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^1.7.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.0",
+        "eslint-plugin-vue": "7.17.0",
+        "eslint-plugin-yml": "^0.10.1",
+        "jsonc-eslint-parser": "^1.4.1",
+        "yaml-eslint-parser": "^0.4.1"
+      },
+      "devDependencies": { "eslint": "^7.32.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "f916ecc123e9b3efb6f9dc5fac7f0ed5191e57bd",
+      "_id": "@magister_zito/eslint-config@0.0.11",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-mTMXAAwvOWArKcZ+rmBeBn8Eh86uzogUtbt+CbqEhdg5hr3wG3F9fQ6IhThLcfrlWFoQlCQ1Gp37MRIFqnzhLw==",
+        "shasum": "84552e03f85e12b18a16497a5480e8cec8009171",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.0.11.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2333,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhnKeDCRA9TVsSAnZWagAA4+AP/iCGRcCoZdPAoGWhVfIY\nPcNsemcsM1QZ/yJgtlEeUCAkC+kVoYOZQgxetjoXA+o/BaKW5YbntKRXrMbe\neKDZuRlwxA6vxQ8/F5H+fw3oB9Yr/8iZj2Z3mhvo58Roe21YGJrjP8qQy8iH\nPRJg3l5qCLBYKu1NJzNQHJwmct3C7jMszIQzi2jclPb8WLg07V5wdLqVtF4g\nbrQjJAmF16VqVLImRPzwzSaNzsq3Dk30HCf3ceqVjwAoLR6dGrsw+ymkyaaj\noFQIw3BzZsPd9VRZ0GlYVH3fk789q7z+lfoSz6Ms5OhIZq9WUgT3Bj2rIRMn\nDcpoU/DxIbFPTgOrS3AXgyjqusnajV3mPJGXxGUK+qUmOVkQRkT5sZ2bXf0D\ne39TSPQG4t/Uc7c4agAC9fcdFOTGxH07Sh/wD4iPha4giQx9wGw90oGrM91k\n9eQ8FDcRIPVoioK/ODm9iRsRciNAgD5luIHm52a8x2w21lHaMOm65qarnmlk\n3SUwWqipCiVcEvhKp82r1BYdL17LTko2kYohQKI0gU49IHV+OgjZYeL6vkWj\nBjE9ufHKfg/Oj1IuMUt1PW0bNj5ASJaU0Mbe+pGc2w6JBiem+RLDlOe5EDik\nQS4avYIy22ittJfwgxnyeWRAflDGDdEia06srJjut8flJAaVJso974Azm7JR\ncMvj\r\n=E8Hi\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIEJFlz/Q6c3KKPkLbMwc1wO2Ac53oUDghYr+cXIYV7CRAiEAsT0RKbj3K2pproWdIRsEluVguyzttGEEU8o8dDmdbCs="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.0.11_1637656450938_0.0029415876032441446"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.1.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.1.0",
+        "@magister_zito/eslint-config-react": "^0.1.0",
+        "@magister_zito/eslint-config-vue": "^0.1.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "7c7c81d08256bacd6343fa26a6a64aa56af62b50",
+      "_id": "@magister_zito/eslint-config@0.1.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-/O4hdOCN+zVG5E0IpZrP2pdUDowvG7e49/v3sVDcQhwRSpSe1HWT2cOwu0BLGG0r+9L9gP5ewB7C0/7PN+0Uzg==",
+        "shasum": "e45a18a035d5bad6eb6efd3114dd88a72d53ec2f",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.1.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2325,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhnKpnCRA9TVsSAnZWagAAu/kP/iDzoRwb55iKntftq+KP\nbTF1GmF9C0Q87sgxCugcQofhVIuV6tGtyxdg7uPBsSlqqMn98fg9IckCd+Ro\neKZEiq0jLGB+C6tlskOHhLugRbhziNJRCc12cJSAsgV4X7RJwPr+csj7zDHE\nJlVEiA/Yd6WcN1uU2ayy1I/sfzUJ+4eQTM8eZLDHciWqichuUI4XAngdYId8\nMMgIqxSJBOPfgcZmVMhyUQPh2mb3CIwUHujtn08H/b4mNBjn9+l/WpnCrjBs\nEK3yeRtNQe5qAIpFG0n7qd3oTumuVlhkIrydqPMBsGn9Who48tQIsMlBoDXL\nyUS2Z/ipSoBotNQ0CDVXvL8cuSwc8kYVvWOW2T0mdw5nDLq7AhLlompq8rd0\niNb0GODcSYCMWmOeJu6fdg0ve0RPH7re6XkrW9yx2rJZDDR0oeBCjZuA2G1v\nq/eTj+w+K/KugmdE+QeJ8INoO4v10GKVSRkixg8cLVqX4cnb5h0b8ah2apBK\nGPR2UvkVIZzDOvdgtdxkZpjI3LOIbetujb2YfEhBmuRZCPcEb2mDWf0p+3RO\nrF8TI3irYWVP8YN5Pc5Ni2gbsdiq1fE1BGfQgblFxWeWR9YVKbQuU7HSEPAW\nWdhyLh6Y8RaL+nBanzUCEsTAQnd7Wx0ldClkiEKgREa5RpNlq0ZyPT86xJhB\nwp40\r\n=7heF\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIC2k2WcDEJXZ85+VbEbQhdmOa+tR9k8voKVf4h9P/s9hAiEA6DzlvGnKzGZrqUSsBxB5mUsN3xtlT6w/aResl97KnKg="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.1.0_1637657191448_0.07228130543355893"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.2.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.2.0",
+        "@magister_zito/eslint-config-react": "^0.2.0",
+        "@magister_zito/eslint-config-vue": "^0.2.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "50c5664c7c83802486ea41ecf2aa43c61c3ec990",
+      "_id": "@magister_zito/eslint-config@0.2.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-MnlENyXXUgzrcMwKkieRzLSeH1lvJoxZaBf5QtZC099kAZbEg4rbhfmUZro9YEG+iuXVGYLJG60wAmbRxZQKKg==",
+        "shasum": "5b230dcce129a36281ac7629ce24b197c0b0212e",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.2.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2325,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhpslGCRA9TVsSAnZWagAA2NcP/ix6un7mhqwsnXlJXm7/\ncny8PdES1xWKLbJcfJuHeN608+zu6ml/AXeI5bGYxEplu6auPhhv1gQ1bKQq\n+JYi4uxn0uPDsJiXBaMAbLxkgfQ+UE0emANNaOuwboItfdqII21Omf2eZaw+\n9txawwNa+F6uRMR+8rolOqaWQgbmlwvGN5L1rhDb1/hslLPTHQZfERKCBWaV\nODLIkFmTqcLFgSuDF9wwWUCOKgabOLPCcYjdzT81zZokLVWRzzxg7pKVF31B\nrP0aZICmxf6DeiAVByAjJFaePv6/LcBCvNIWZDQ/1IbF95UTNoILodx5jI3m\nwCvWgSiVe9zJjTHMNYKD7Pu8M+ruStNrjKrHoomq+vVgqdEPVH6l+YoBjh2n\nE6CpQCSez6YIb+w8WxovonYHn2BQmYMEUglpu7TV+DI+uJUfppdq1IcHNwHC\nB/fUPFsk3Dmjdgcld3TA3/k5uAe9+p5TsenUbXwy9414YCNJC8VHV+0nfBTL\nMJMFOgAqeIRWud5TLp1TcMRZlAJJNpovhQxzoiK/NOZkGbVmCU3Gc+3KMsnp\nZhrDHrCsAoJr/iW3UNsQ2fCixcdiZTHXg9njDWa7BbUVrBDwf9UqT3qEwno/\nuHMET4BhLgnnW+wGPZGx+GchV2qNezAGhdaGAMoGK4DoUBVdwgVg/WwwOUp3\nKQXM\r\n=btqp\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDHlMbV3JCfjgdYjmb3VjggrOxKnSPnvZbqSyaWTgSz5gIhAOUBYQ+vSBhyT6I5OCaeKxD8F5bgsTSo3O/2Ut5Jg+eU"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.2.0_1638320454661_0.2874812760899548"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.3.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.3.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-javascript": "^0.3.0",
+        "@magister_zito/eslint-config-react": "^0.3.0",
+        "@magister_zito/eslint-config-vue": "^0.3.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "260646e3f8735fd061cf315b96d8175a2d0ccc57",
+      "_id": "@magister_zito/eslint-config@0.3.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-PR/kXnQ3EPOD4GzeMVCqEqyejD0T1KiZ0PmzfyMRmgbH5VKd3rdS7HoO9IJOi1896xnMEVOzgyaQaIQvfn1COA==",
+        "shasum": "9959f9cf7cf98da38ab59338e4d0aec56d7df505",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.3.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2325,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhpy92CRA9TVsSAnZWagAALnsP/2BUdhoUdmQkyvBqNWE4\nxa6fRGNuofkeaeHzddnK7DR+pPlrcHTIMKhVLvHz+7Krlj/JSUYS2LHpjzFz\n/6lExvZcOWhSC/dsGoG4D5Qnjnr14OS+x8RkfTFGan1aMeJCo4c1G3S/cH9K\n5NqjleWrftj0RGJnTZvqAvnkiLIoBXGDlkKaDIGA0057F9nEvDkIHiEJGdRA\n85UMyb0BHmDHv3jN5dVOI+UzVCg7YSKUw+0b53T/8pMuPQIVMWuIkU47BMHf\nMVlLBUmcIsM0LNIM0Ty28da+c+7hlVM/tmAP70xrVBPZnphStuWnOXddSpSO\ngqSy7uiBCK6x+KwrfCnqRs5sSOsKWqyIzbCI6eAFqsj6jNVhXWeruIR89FZj\nD1IzDrQ6SWy8E11DVBtMiurwlTqbM87Jkn5No6A7mNn6O7MY1vRVZWrbBgO6\nNprGwqVLvcNhJkA6lIkpMRENjJgYn3JceUqIQeTy4d+Y3IGs/L5OgwXXkesb\nVaYrnOQP641xVM6W9mBsVwZVOT+FnQ4uv+0d5lviCUxGQPt2MsWnJnpxKOwP\ncrc9Ry8x6E9tCeWGy3qtHdh7fVFlBpwdE7QcSLRSs2YoJLL3EXg6X/aIAw7k\nXo33rm/bIBYdKhnW89sgguwpkR6CWF18tfAyE9zzC7MRud/oFA72+yaHtl/j\nhO8H\r\n=Z+i3\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDXK8MWmEmOmfHMeiTiCm/MJmwXHFopAvhG19fjfX1M8wIhAM8xG4Q/O7a6J/mrVn0HEcWxU1oFylB8iueVj+ODBSXc"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.3.0_1638346613837_0.1459234141157939"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.4.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.4.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.4.0",
+        "@magister_zito/eslint-config-vue": "^0.4.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "835b289f62b225315f340955a79e3d40aa7f035a",
+      "_id": "@magister_zito/eslint-config@0.4.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-qqGFcqITWGujkfUOPLOKpgoryCaxyQy4Ug+D4Z+zUyB65EsGdzAQi2fdEP5yUKlkOOz9hZu4WJCc3fSDjEGHzQ==",
+        "shasum": "dcce6af680db696f33ea655e422e571099e185c6",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.4.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhpzpxCRA9TVsSAnZWagAAArcP/0UNGmQ0RM7S1e0hYBEI\ne1Py/ZA1eT+ypkeNai/9SVl9z/SCRMkAHJ2EX4dMbCUXoVQLcLYRbWIZq5nR\nu7Bb6UXCb56EjfLrVF7gL8Xr5BXqiwQptnf/Dnmw11S51vy0WPgoreLf6GSh\nafUE28dAWviNnIRgK4mBx4WaiHhWBFQ1rR6jQfM53PZ83LsNPmI35ggkqDk6\ni5e9mhJTY6NZgbYW2rwTBGeTRmB12mCJQoMHhrGF5QjuucmVNldU2QtLAsj4\nVoAnzsGcjgQAWL7nY8TqmPI336f+QG9AzVJoSMy1Gn6oWKBWIYeor37DL6Jn\nWemwLxAOXNyXFPtfxNZG/s4u34BgE4zqiA6UaPV5PyYl9apsPMIfXeMyOtFk\n9VXSjf423T9N737bMc/a2qMxKagUpSH4ADlTd4dRTW23nuyOTcQVyR3FC+H6\nfgwiRvn79M9o0/dYqR+vpDpbLVniolKrVg3/XZjiIClK07YiCuIY9D9DKP+i\nqqBJNiOG6XkMRmGFnnlGbKd5B+HTdhG8gKeTaJs5jo5CkgurApK12ITY1V3E\nVL+HfvUnzm9wubXszWmax8Z7fDtBgAP+iak+0y8QKxnZqQMk7a52+MsI2rn9\nXyfnBphzcDHPzot5KOzyABYUeztZ2590iR6mcMOgWVqTcveiscr7IVx++uyn\nCLQI\r\n=UQNC\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCdJpxe+vsoz/mY09gEyIhmyg62/1UfoiNO5d7J2ZYyAQIhAMIHyCb7+b1/Ub/kujK0BMCLmkkDTPXPfpcFcXZLm9HA"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.4.0_1638349425272_0.6755992168786698"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.5.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.5.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.5.0",
+        "@magister_zito/eslint-config-vue": "^0.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "c13ddae2d0a899a2107e0f197dd67c41043e1ab9",
+      "_id": "@magister_zito/eslint-config@0.5.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-aCxJjGcaKZFqvedYSU7OAmkLUP0QtgSa7wk1+53Q3PVtwVLuEGO8abzwMSxtkIcyfK8wwAxwUSDW6wbKSwfwVw==",
+        "shasum": "8046a9b892029623626c4937ff15d330ecaa3770",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.5.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh0dekCRA9TVsSAnZWagAAwCgP/18vW37Qq/wyBj/J7qtI\nJ9nRE4lpOiY/092//D7Vg92h7P55bS2OSmVzhURprY2Osj9SI0aBsrZXBFFU\nZNiUDbNVbUVfb+kZ9D0qjnoHImQ+fcOsDT7jnrTGqzaK4bBVIwasx1WcKrJk\nqLUgDDRS8od2/1LmVA91C2uQmTG6EOzItbNC0NsELx7VtkdOP1V4xgr/Nvg8\n/bFhjvSPQneiRqB/F6I1fAlTxRvIHNQPWtAfYsuL/Pb2c5OidwNAHg0rybm7\nqqZ9hwOukd02SxtlUhLUrCztSDMuyjMjrvtM6RFBLfDySfbDpERYdQ5g/XLF\nuG+YIeFEyBbCVSxHd+AlWNq2/2UsG9u4rCuAV1mITPo0iJ+Xg6dv1UYcYs3P\nlJMk99w+JTMVjj6bepYvpu94fbQLFz3reSbcVZB2FTJphaDrJhoH47kD6bG1\n3tIdBKAUsaQyNIgT6jM8JvTyDkqHEKUiuXm0FV9ET+qtofUzApy/vgiKni5J\nYBsLoMZqOT/xJXeoFTSIMkOjAapLYCRmDjA1kY8ZXnxjG6bKahNWXbUv+TyF\nue/n+qJGP/0Steub8V3EIf6bkaiyYEs03cNvPTy4co/uqMnKg1jzlfMLFHiU\nHFfCHwa6/OsFRgRCjZuL/LSrtkLzcs4DkhuTn7bAKDycxrFM1wckr75f3N+D\nCIXJ\r\n=z+nI\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIBrebEchfPD6i4MntiHL+lQXylJPgC/S85Z99g56WxLMAiEApCfaYt6ffSbglqE/yCb1TLVNs8zvxOuKMFMEchtI+lo="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.5.0_1641142180446_0.06500226258123765"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.6.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.6.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.6.0",
+        "@magister_zito/eslint-config-vue": "^0.6.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "a7c69ad53f46b90549b0a1905ae2754dd4ada117",
+      "_id": "@magister_zito/eslint-config@0.6.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-yrVVv2Y2AFKDFwNaLqj/RpMZ/bJPGiulzYf4PCDvdiXyc+qAmH/pbI1LlQYuituRHjPpcSI9aDVFxQv+8M71gQ==",
+        "shasum": "a95f30b6a3ebc08253779e898fccb81cf58d0d5c",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.6.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh0eSGCRA9TVsSAnZWagAAAcsQAJdR1OCc2xLst9W5w2RG\nsfVD4vTHA7Uub7QO5Wc0nbUPbt4z1Kgsaos71bQvo6jrlQw6/ljVFQAhWQn+\njosyfgBI4CD1YnNovFxRfCdaiuJn28FyMb4GSgOor8avcONN9688Y/DNPb2v\nb+xCxOBxSXxOx7+ReeAkn6jTbvgaPi69HK4I3z7Zkgl5XC/QC+3SGBPvX35u\nCYAr4I52SBrfaEPtccV7GLncqPKAAgfaARpSvWbC9KTXauHUFxrGaypMyOuM\nCTJaFb2IrLfTgHgp6/jOjBqYnEI2XfLK333oRyTE3F/lnLcpeFabkuJGiHtW\nU7YPSK2Z6DdP4gdjIB9gwlHfTUvoJlJGrMiGMMq4AN15uTyaJ83BIyCg2rOW\n3PkIGOl2iHR8Q2MezjLksWliWNjAJIjKn094qIos9Ki/PdJqj5p4kzGOB0eV\n2JTztaQQoZcvf4OEqAXqKUFCVduzwUii4+fmW752mBerZ1V3LN59Hp9mVUMs\nfKO4ZU2uOPtlbkEKTQ3lx9qkLuiSvbZmHxUigUtZgLjAusLimv1I/kVSgIwX\n8tyrpmH8ydYikdwSliHSRbFEYNG/MbUKV+uCyQc0XRZwlbSUW9n8VYICCExc\npaPKZ76VDo2rOD2dMECYqx5XyiFAOT63YrSIrrQrt0iM9qD3+lEqOFVda+RT\nmQak\r\n=Biqe\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQD/2+qJz2VmRdzVaZhYsk0S9T9OpKNi59adlWv7EvjocQIgWDZ3Sda61hhBTAoGY95JHzqClf5/sJRPnlEZNLP9EBQ="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.6.0_1641145478342_0.5511752902442308"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.7.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.7.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.7.0",
+        "@magister_zito/eslint-config-vue": "^0.7.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "62ed988c41c9d3c47c47fc19f56e4b23f0e77389",
+      "_id": "@magister_zito/eslint-config@0.7.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-7F+gCe7WAEmjqf0ZyJvaA8WtfzDqmMzIgKunsqZIHy/6VCrt2eRkSatWNJZe3xY39Wgx8gINRFvq4acXyH9Bpw==",
+        "shasum": "c6d54b6d19d6851dd9a6e8eefbd92e4498a9e611",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.7.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh0l/TCRA9TVsSAnZWagAAKkIP/jQ87apjO9LfnYGlhCyn\n/1WlbE7cz1yiU3jzsRvmZRElnbE4N8R4FZp7VtBy3d9M7WJFGCOhm+P+Y2dc\nZgjmAYGKo6fQKhvMkoZNcP3y4Wt3rQMX4kGWMh8gBC/Rdk3Wq1nReyN8aqrA\nGO0FC4bXuPsnl6J8i8ZG7GX3JjWlf8wo2iP6bm9F858FZFb0zRJwgbAytGNE\nMWiDzqvbkOiDd5YcefJTDC9FOVgpLNAfiNSPM0ZnVHFyGENfxZER9+eToL+i\nsn8bXqgatL1BtM6gxsv/zKS803TCAbM+O73elfvtlVhwPjt6OdpzzNkGQOqT\nWnyubQ6EfeZbrUOLpuHinE1NXc/T4ACHoujCA6yUDckyaTVKdzJrslxEo0ud\npWXlEfPWHpkyEAgmhzJBp2A8PfZyXe8/3ugWr24gtyuIjtYORFuzqAQilA/5\n5RSYaao1dH7yJGu2/BsirZLcgctU3KSjKN/hyBwFaVj5WVIgv8H65RHXphrP\nG6CfbZAYGIPe7qb5y7GGnQm6zW8EnDiOLfZ5B8ged08mKbfw6z9cMg7I3izQ\nEirmEepdmJPqAGvU25Hk42+0mU5UJuUy2UIWilU7gba24qJg6LZWPLPil6Ra\nST3UWSqpjj/llwmmXBE1veVZU7qilIDMl5v18QQqGcBk546ZYl6umHSv7qsZ\n3z3w\r\n=SHcX\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDrpXCC/VHTn1FOsW8bvnZloSF9mvna2/WS1S9hFAq8PwIgRR9Aowz6uXuV96JrWC363ldRIYROMdkWKyBZr4Ugw48="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.7.0_1641177043223_0.8699907407645151"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.8.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.8.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.8.0",
+        "@magister_zito/eslint-config-vue": "^0.8.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "d8e0d790f886e8de6f211fdbb1b6f5f65dc43e00",
+      "_id": "@magister_zito/eslint-config@0.8.0",
+      "_nodeVersion": "16.11.0",
+      "_npmVersion": "lerna/4.0.0/node@v16.11.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-c6cE3t6UqOKwdYybZGLUUCQlVK5Ah53Je6yE5rW3/AfJiYosu+LnhXOjQDLQIKQPzW1f8UefTp1TnoYU/xbJeA==",
+        "shasum": "e7a42fa9884f1463526e5fde79ed570af67bb944",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.8.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh0mCmCRA9TVsSAnZWagAATgAP/A6LpNVeMXUd0i5BLxb7\n4CSWt2JXzO/KQFStxXPdXntvjFtoFxp94H+yCXIWwa5yuLZrBeBuAje2i5/M\nqkA4+tN+xLxv6pcbtPma9K8K8dQYb04gmCW+Tuw0ZV7dgZVJgAzTC0eaeL3y\n8oGaXEiHOHFgo4R73EAoKv3ZVedF31EY8bo/RMv2DLTnn81qhy9++jEjqcqp\nzGU46d30N34BOpQGBybVED1d9qoVpLHp16t7tWuwnMTY+bEHD4ldCKdXt8lm\nwKWtzVJSTOb1nDg+t6oKa5dzXV34+7+OCpKgljmkZBpClRqIlpFNU+cUwwaP\npxsZqnibvtPPkOgZ6C+dwrAktkEL72CQ0Q1LzmS4Eg6SkdVpCvrY9kySUWuZ\n0BgCGfLvjJr1Utjdl4wepupJHy7Taa6AiGBSo4nz4y/NdF9PMiWxMdhbMyY4\nu23X/ef4YgMgE5whelbuLwNRtYJktS0WWrclMPEHBPVHoNODa8ucwLiAIMdx\n35QZy4VmHPD9qJ+m6vjtGqHqn54AVL1mcLkAFgX3i3XJolRoKNpO3oAQU9xl\nzoaCpzxqp4MWEbyVm4W+P66AnWVJJ/ajm6Trd09nfCHgAFmALxbOMykmWls0\nHNiXpyR4+DCU1n66xzh9NSS5K4bIuvWBM2fVij8FnliZRRtK3L8GKHSQZ3Vp\nrzYQ\r\n=BIo3\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCSlRgFBiJGQwzSrRudLG1P4Br4pa47FqYA+KfTTvAXlgIhALqCI2Tke3oBPC0+JC025f6/8zjIJbJE1WxHzGK0Dr3+"
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.8.0_1641177254717_0.11941802495078258"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.9.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.9.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.9.0",
+        "@magister_zito/eslint-config-vue": "^0.9.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "496e96931486ab279f9fd2e918a21c56ac505d90",
+      "_id": "@magister_zito/eslint-config@0.9.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-tOVzyFQJXDWIeWGGCadEjbdpNR1+Y2l3AlXPAB/PQM+d2BqI9fF8TEtgnM0HGrOtNdrezAASjzqhmtzB384iJg==",
+        "shasum": "471483b2ff12d82eb83681313a2d51dfab24f7bd",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.9.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiJrCEACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmppSQ//ZfavmtRa6c0C99DgAiovsyzrESIui/VQV/IGa4B0tWJxTrdY\r\n9199+U8OIr22RnR0dE/dTUH51ZQtewyv6w2o3fQ652eujQOn42ppHTr29cN+\r\nvtdJmfTDUuTv60SNxhxyHeIAGy5ZPVkIgZ7A6IuzbG/im9ZhDu2fSxByVJs6\r\nB2A3Z7+KD2LrB1TNSd/jAiSIuOZ18sIfkqTXd8rcVau1VcUtniBphLOl/hMy\r\nqeeOqpRbSogLf3n8a/+XHI2JVcPZbFzk4VU0bdYmhJzuWclUeBMEDexja5aa\r\nl/Mhjx+qM97FnG8NSoz3CQT+bAL12NEh+L1CHDoU4PTNXwYNHa7o5xvno6iz\r\nWdSh6EfXaRah/VAtjeNcvlLzd9/26pWA1572e2s62aYXhLAhh6JZfqybMFNo\r\nSQrFXLj1bTReaUhyztq8HUwlP7kkTJnwvZFraaupAOMkd6WSAqUbs1k+zF1l\r\nBfc8LNS0Xb7wXd05FuANVK65KHOW4pYmhOruG6XRy4zATfSKj+/yyxW7d0WQ\r\nVSaAR07/d9oYftNBjPBiihN0K3y35eYkgrvUaRvJeRP3Sns9oE/65pyiCQyE\r\nL6djVxCzeG5q9vVMWyjMJnlqt8D2tUi5Bvb1vb3FzoVyHsU1vUHoWpingtjb\r\n84h7b/nQgi5irJ1tzgdpZbSf8P9UAAyr4pI=\r\n=WU31\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQD5elnw7aGDLM5TNmSSE2vS7VqGTMvG8HnlCse5zTHkUQIgc9xA+NXWEFv6VJHuZWsZYICI1tpbOme403JHj4Fotgo="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.9.0_1646702724475_0.3233049128932468"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.9.1": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.9.1",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.9.1",
+        "@magister_zito/eslint-config-vue": "^0.9.1",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "10b4050392c06a0b21e35a23a3b2572f24164cb3",
+      "_id": "@magister_zito/eslint-config@0.9.1",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-qRgoeOt0a4tONv4G+ftBtdF6chUxM0ixXfOjt7X5nt9ZwUsqj9rydfs5SATw1r59W6KP16mns0EolzqvA3+rRw==",
+        "shasum": "fa6b07e63154b865e5565fad597594a8a15b91a6",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.9.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiQHXgACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpLQA/9E2i2/gUyyS1o15C73gL5KAPiuO1v0MK88A4plTTScNrJ3FPr\r\nAuknUjZnUKkwy4TOmw46iLmO5fuEeqjYhnSKf8J+Dgp9S9m1gDtJoVaR3PMq\r\n8aCIC2uljVraiWIixQonCLWUhGv478zP+qY+NtNwYQqGcg5qvY8zBi6Q88cr\r\ngGPyvxynBUwWwO7iiwNuWG4VyKw8a6jzcDrZUeW2B/o4kMJdCnEDkU4rEFqC\r\nUGOowxVqPf+ksZTXGZS1VRNmOl+mo0NoBWSYWT259ic7WFGA0sPhXQoYeHZc\r\nv1XCEIgKi4K/8m0tP1K6sYh3IuHFgLbLwcUr0nM+vxlINEOrRT6AQp8jEkCK\r\ndY7iu+sk0tkmEUmHXBc9d6QEeF1XoqGfFRnY4QrQJ/8KX4gKQj6PIl0lbwc+\r\n7Pc8CmKx+8hmRb8UI7tdwSuKaqvi6x0g6QBz+7Yo0y8NmbFDRjFDy4FGHYJo\r\nK5KSWoAvJqDfrSUPdguKCodV1D5TAfmj2e/NQqAjcIAnzNot1Z5DiBVQ2/2N\r\n4eGLAIfSbSWFntGJW+SijZV5G0brf8dKkppwGheXx1NKn0Dg+esdqsoSPCxi\r\nvWc59l8GYoKHc0pzvHOIjUbHBOGicJVgjPkeAffO+lLydjwx4SV71Crl5uvF\r\nkYdXBnX1PL/0S6zDktZ587eSRfyc0CUjdU4=\r\n=C2gH\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIEssp3xQF8uhht4vFQYQ8GMD858uC7Uw4B/c9sgtzlTRAiEA8kOPMtijhaHJlqo0w+5bktTY2lEgjDsP+7+GAdcedqA="
+          }
+        ]
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.9.1_1648391648183_0.5145081879638329"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.9.2": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.9.2",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=7.4.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.9.2",
+        "@magister_zito/eslint-config-vue": "^0.9.2",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-vue": "8.1.1",
+        "eslint-plugin-yml": "^0.12.0",
+        "jsonc-eslint-parser": "^2.0.4",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.3.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "5676be3bcc8ab1484840abf5c451a37f4d33a369",
+      "_id": "@magister_zito/eslint-config@0.9.2",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-a3V7WNR8j1m6TeEfAZsM6ElJjk5/ubL1nolCTk/30pKU42oPFQn+QdMfvJmQU0rRZhRahfYupJRdqamFH1yyNA==",
+        "shasum": "14c46bff7a05dabb9cc2cfd294eebe0a0f2e9897",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.9.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2268,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDgy6MUvcuuZ+tjBek2asfIvq3vCTF6P178uy4H6c3exgIhAMr3QjVBfHkaNmZAHirZDmT7KHM0dMWM/pvK/RSZZybL"
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiRjsRACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo6nw/8CDt6dxIntN+HjcSmlOYmSMG8KeYF18BjP6IAXEJor9nH5TIF\r\n6JXywGuCI/VF99gFO3iEknnX6KxJa17IusCx9LJtQIUatP7m1jW5pLhBnP1h\r\ngxF6iPgRWaaAjzmHFUugLGHwlnPwYb+OksT24pGuxu8T9AUkxiuOXbwyeDj2\r\nMZdKDupA3p+wkdqzfr5xSIAIwBQ0NgGUF+pL/nfPnnjxfOczwh2l5DzJDkL/\r\nDNxsXcBA1LhQktbd3B52bEAYXnruyL/6pDf+eWJ2tJydh/HjY0R9C813G6zd\r\nAeHSlhKTcS1jptBl+zEjk7eqWLhMKVWz3TpdISFrW66zAii2MsWqIddbVbfR\r\nOO6Oqy1o5ZDiikYbVujt9fS8UV2YTIfi37WTQahworAggunMpV8LTkMSvHPe\r\nw5HF8066KrEH9bRTu649tvUBPPogxwts4XSseEPXsGwzFUpww+A7l1Pz8cTt\r\nhpRJCEIVEa76JJIHl4B+Ni9OMEwGv4FSrSz0NfvpXcAnrAFMcqGjwml0Nlkd\r\n/hGSkEX4yudHnyZLjguSsKpG6mqkadumoH1a9IHB9ulWS0jXH2eA41L6StEc\r\nLLA1rmffwc4zm4Wwuhhm33QaBEiRcVk0Bq4/CVd28obwHcw3Fhh69Qi+2vRQ\r\nw+3q3P0C9aZqxMt2KHHjwFvsZa21UMJOCGM=\r\n=C+2m\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.9.2_1648769809225_0.2940763978542549"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.9.3": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.9.3",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.9.3",
+        "@magister_zito/eslint-config-vue": "^0.9.3",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "a009224614fe4aa734a0c3a03f8434f930ae0e72",
+      "_id": "@magister_zito/eslint-config@0.9.3",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-TVMEQJ6iRYrGUZoMv09dqU4ssB8uNckRc5KzrEc6YXVnc4eJErZ4pNaQddE0VtaOJy9qt/f2rW3S2Y5mdFfwIQ==",
+        "shasum": "3e57c2d10be33193a94ec7eb158888fdb974c265",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.9.3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2269,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIEkj3xpjcujdcBfaalE6qXoFzYcN4837OBrAHqU+8oFaAiB3FmPDaJekLWqFkTQxflV7/ooT/rvdMpB24+5kbhUeiw=="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTZxsACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqTkQ/9Gu40X0Vs/l7morAo1OfcJYehCcVzFO7y26RLegcmMMZ/NqQA\r\ncrJltMVApg1LnChO2HxBSRuVBCvdU1qtRP9yZCQGp2zka26JlvuoMl2iJjcV\r\nEsiJrET4cx949r9sZPZnkpwNaIElmI6YBbok7f64puetV8PDpmfe1fZ00rPK\r\n9uWT8ShxrhbvswNWTMyPwMvZsim4sDz2nZrRp3o/N33Wo3cCW6kuZ1X34zgU\r\ncI+QrAdCGaFxZXxOF9gBfx/QOXQPcNh6WbHyHY+9vHwjlLGB7uyvKgH8iS0k\r\nAMRd1duLaThSSU4/1D7lhJEOD8kdYECJSPW4qQk1YFQfxKi8E0kATw3uA+JA\r\nG16wqjr9jLHtfHz+VaHRTUdzJC+9G8hN7LKbhJcklSYWOWv25pNL3SC/fE96\r\n9J1nl6OBOjnPFTXpKaIo7lmlwjI8vGMeQjVPt3BAn/KyhTQP0qi39M0+RDC/\r\nVvJTppDBc5auNWMdSG5PG34Tz+7to6SnVs54sjd2Q1z3m8rSjkyw9tGDPr8+\r\nooEuKGfo8cg4sFgnf95SVh4Sp2aeAyk7qLtpVMqSfSeZqmTxGnMuID1C2m2v\r\nJdqpFzUWY7mqdB0b7JLxXb8cQdp4Uq4vTgOtWh2GDLW+M0MLa14Y5/u6n/yQ\r\nSQ/2WKwLvIlR8CqrB94C/fotVmqmJwHhEaU=\r\n=12sb\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.9.3_1649253483959_0.9033737665087704"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.10.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.10.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.10.0",
+        "@magister_zito/eslint-config-vue": "^0.10.0",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "ff4538a4b93dfcecf3ab8adf03d405d13254b7f3",
+      "_id": "@magister_zito/eslint-config@0.10.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-IFBtkMAZangKCXtt/mIG5w3smt/8HJfEApsmawj/dU5bi9gjbolH4GK3tlnNlAmcvXdB0EvKXds1dTgse1SqIQ==",
+        "shasum": "0a78a1f34c9442f21e04984b3fbdf6a61c4c2529",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.10.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2272,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHuEAB+u1Pg57q80kBuDvzShnQsocF/c3pmPRbIgLtkWAiAhwP0LNasfC5NYlh1jVWkm+vEfDnQBpQ3XSLk4zdlD0g=="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTamAACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq+ERAAk9Z+IUp/SGPxoSYlB9c9LSiy63d0slQn9kt3A+VSvR7hkz8n\r\nfm+C0TtWAGkhBGFfvi1y/YRyEqtiUm74YAn3ZCYilMpycNpIfvGowrqtWFDm\r\nsCFxu+IYFBtwm4Gh4eSPFNQIRJwWBHh0IPU6/hR0JaG+OUcPR9M5936GDLvI\r\n5sCanzEJYMb4Sm5iLrlE+XD9+NulrYiQ5YaVpxFOc5rh47ky/aumCTMi2omM\r\n3eXi3w7M54UIN32UYL5Nf2BxGZr4FmzQgCNWRmJP25Fm5ddssNQSLU9YxU1l\r\ntA9SaQtIPKunB9R8rHR8lSU0WTZWk7iBF6hb6lgC29O3XJDaxXw+TBh0mr3Q\r\nwOXQSExpqKxt4v0Xd7gpUmf2RQAuwbHhOObiK6sGmodEaT3zka02Jwj1Js2q\r\ngfbtS7ewiowlkrsHS4plS/HEgupLFE3p04ZpXqJ7kYEyCOwhoppxVQZp798y\r\nz8viGQfRoRrzvJvPq+Est7Pl6vkc9SXYje39B4MoPfLvIk7/FCLc9N2pIYGF\r\ntvXDHKqqmLG5kShU1eb9Jat9cK0+eKg9xavwsE2f0MPC0hFsWsRbTlsmF7n/\r\nXB+s1pL+njwX+H+NAn3YHlvacXDxpnDJy9fjHbTMQqyKvLXjl22B3uhDWHcC\r\ntqyxuJrvpqRlC3j4IeNM2T1NWHjmNNS46RU=\r\n=jCWs\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.10.0_1649256832226_0.8457705286327393"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.11.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.11.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.11.0",
+        "@magister_zito/eslint-config-vue": "^0.11.0",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "0da44163a54df22321465f9cca59a531124305d9",
+      "_id": "@magister_zito/eslint-config@0.11.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-ArSwop8lgMpZhtydUROkAGDbtazB1O+QNcYSQrpYfYoGoiXaX45QX4iM2alfriT1suk6mX6x8kPws57inZ713w==",
+        "shasum": "d4af05a44e216598fc334c557abd62f17c85e70e",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.11.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2277,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIDUmdj6BR06p7rEkr2y/PAiLE5RVTixlGpPzDiMTO0IBAiEAosnf99UzznUYUMhGo1fCZxrHkedrluyXuKsjIw0iUuQ="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiWgYWACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr4zg//Yw6M3CPlNdGRVRR1N9aq0EF1cfGZiKqaXnHYqJSUsEaQpRl+\r\naDoI8rMPCLKm1VrCvi8TNiwj7lDtdK7ZDvqYSaSXGASTY5riw0B2Kxayg+gD\r\nigCZJRay+E/FPkSynB58NnPsMU4VGzB7EGkg6iOohEl8ON626CoUFEucsLar\r\nX/3a248eBSLwf//TLBIFR8JdywK3O+OdCr2yIsiGgj6sf+0/M+NJ4ZkgkztX\r\nQejCTwJR59hgi4+ApTtgb037hGHVqk/cm2297rN3Yf9HGmagYB+NbWVwMoEx\r\nL1K4Ui3MAOP+mySuAqYUJbs4ZSRDBpra5K8/cuETtJ1N1zznAq7l/bfdVzn0\r\ndd2Q0mLyXs3GDTt4amQQxNOE8UJ4heP3JT1JJG1UIRxz+BJ+u0Rkldyt/Rge\r\nE1XCxvkyvm5628TkgKoWJTDs7yHcdML0LP8RIqKKvdJtgt2/K2ANLlxPTU/F\r\nCgMTzwlcbrx2koWmKw8wSTiDO3V1UpsaYWWHbtJ67vYgczkZ61uf0qTse6bo\r\nhpwl3n4uDXIJyjMdEz9eX5EVcECYyggqY1/g72sSZcchQErGeayAdSi6uoW9\r\nu2L/JGet4ui6XJjfUpz7A9c/S1x17IN85R87yM88QRVeHLcs2jHRFeOah25n\r\nLxu/oyEOjfU/CIcrISwvYyOUyKLX72sMX9Y=\r\n=qsJ0\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.11.0_1650066966665_0.5904259254649824"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.12.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.12.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.12.0",
+        "@magister_zito/eslint-config-vue": "^0.12.0",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "f9360655205de94c35ef090acd7731752ad6c19b",
+      "_id": "@magister_zito/eslint-config@0.12.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-dAeqOZ3o3D7VTEGSuP7ecDn/C+GVdz5ym366H6SLd5TihEB2NOGNxR/vUA1ID5vwqhg/2L9oerlktPWlbFkI0A==",
+        "shasum": "3e8dd74265718e6573b0029f1541d179697dd249",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.12.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2279,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDnmhWpk9tPnjA3VViPOIrJO9ujUVFwJ7Zaow+vQyZBtAIgEq2+a9kd+4yk9vnt+ReGt/3mUQrLuP60HnOdQ+OyBmU="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiXswnACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoNWw/9H4ruVDPe/mPM8uqric/5hxPq28IL6/pV34YHJ8ZRRciUKYhC\r\nD5JpFmKYJ5vvrv6fKRq+VC322MhdfES1qwUi6ddl4sKLl/wwRKWlNoOmKNWf\r\nmcvpWctTYIGEsq/TXpPu0vb/8STPcgefnuqqVu3hyNHigAGy7V4jb7ohq4rk\r\niyOSQNRbp92yDFxJjKVq3fGnHMzV+7377DxFpea+a/eqQMb/TkD4wInEvjB0\r\n929doy25kVq14lxwQTIlO82/5avGo1mw2zl0mGZiggC9EhqIA4ndYltdc4o7\r\nQgMhacjIroYe2odwjspN0cko9y3SBq97G3ArYd7HDeEKn1/VwwHwFzIXf3Tf\r\nVc3mMto2jtlI2wDzmy3fHlIL6OwrtZkAQFHPf8/dYMUk/gvWEFtBrfXxKGtd\r\nuq4SZoHuLxWEcDvO5mw/rJJ5wJoepk7Qyl/eNK4s+48id79+xWm4Q+YpZV5G\r\nFuKdpst6pO8aBFj47HGyOgh+AREG9qbOvXmnqx6TafvMEyXj/UyfkAEm3WIx\r\n7MVqo9GfWlxqMJ2Zhh6SYJ94vYQrEG6FL/6LqMTsLxwTy87nASC11ZU9d+TJ\r\nlI//PyEl1Fuu9QjJLEP37fzZP3gRis9zMOBQRx33FWqRYXgjJ3zRbDJqugPK\r\nVTd6Kv8ff1gvxMykum/tBobTg3J14S50Z9U=\r\n=Ob4U\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.12.0_1650379815165_0.17793181772085043"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.13.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.13.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.13.0",
+        "@magister_zito/eslint-config-vue": "^0.13.0",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "06fce8b236e7e6bae48cd294b7ba54b459487514",
+      "_id": "@magister_zito/eslint-config@0.13.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-xfoZhQXajDWVwdufTQPpxlz1uqLv5DAi8QYNEEbQeMZsb00nomF1v5ibgPPCjkW6ikaqbvvi7vYZhKds7AnZdw==",
+        "shasum": "444c8a197f2aec31d786eaf0fb91bda320690aa5",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.13.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2279,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIG3JV7x+AuHdYJrRiTFUbTiLmPBwPw4zdmOOK1UFZEauAiANhIOsLhtiGTvmSuk8OUZwwbWUpstw4a9Knxts3mgI7w=="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiXwMjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrM0g//aO7rn1hDh4K6nhQ6qjCxV3SBYIMjpYW3ea2O1QkaGBq2h0dr\r\n7uSvOl6N6b9zf3JdfAcd6bsje+Us0McijOJ+opj13f/X8ptsRQ7BZcbnIDdT\r\nx8Z/37GvX+jX8J+d6YevMi4HOrZubzshBLCiRQLQ87lcKRUNYXkWi94zgo4/\r\n7NGa/wD5zcB4disHjGvUAeTOfMEUKWsNIFilsibwZPrXFRN6uzo2lV4asVcB\r\nL7bKrsdd5fQEMjZtUW4NxZ2iwMxIkWrUwFLwmnnwuNVJypXqmqx6TKma1ABL\r\n8rzbHyjnMxxRiHPEvFOrJYnlCEq+z1RjWyWFCvo5VGLMh2FSAYxBVnhXpyoP\r\nGP7pezDl16ZSEkhKjUNKIjm4zkckTcHaw0zWikZDI0inCuee8KiGoz1ChutV\r\nD4LhkeC8a9JYUl+IGdnQujywN1I3+FHZmSV01z+7lyC8VbVHxBmYrMOPyaXu\r\nOL5rFiTCDCHu1sAIJ3wnngHPSsXExAaH4Nm/A/yN4pOfJYLWLw3mWZcudB4t\r\njMNOp2L8h2cMk5A61JvshHylM8kzzbZFSJyH0Immp5/Qpfcly/kINWInBj+q\r\nnF1qGpzIq7ABjnW5nF0YXp19N7CWWKiyrpLP/4gTKlID7LP71adeWCKijVx0\r\nLavmi2crF1HubpjNeqLIzbE3vPSyHqdtWys=\r\n=/g61\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.13.0_1650393891029_0.6047794692507698"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.14.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.14.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.14.0",
+        "@magister_zito/eslint-config-vue": "^0.14.0",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "5718b50d8b7245eaa215f7a0007691d353e6ad32",
+      "_id": "@magister_zito/eslint-config@0.14.0",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-ROzngWiy4uug8RGrRSpwTrL4/k1O3XFkAeYX8pMrKPIL0ktU284QGw2b0ZvP+iH2KTsaXayI27u6T/75RApvfw==",
+        "shasum": "5074e129be39a99039f5f6b5410a16b0ce4a11a1",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.14.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2279,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCkORDgu1wi+35iJRKnUYmK/UefBrUCvVvA+Wk0ji1sJAIhAKPpWSz7e8mDSCWQMCefiiq6sbey7VRhM2NKLLGlunoc"
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiXxXRACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpEsBAAgpz6vCjItufO9UWJfyi7FY6i7QCME3jHxbcaYnnEEzT8wes2\r\nCdP396Fdp/pexp3LI9dHPNJosOLAycQPE1nUftyGLURktW9SI6fDIpT3O4wL\r\n0BNjwJctSAEfax7CinXbB8gAZuaCwsg6kfA33ZKuHJR4meDTlnWBMH2294jx\r\n/i1u1uXp5K100CWI264Q/VB45Tt3QCO8TKenWYNNjqIecs0FQXvihbwl9vhW\r\nbPki8euA3TXP8F0Rk4GjOmYEoghsaYVpz6IjyupMx3bYXUUpetdS5TZW/5ay\r\n+HbsBvZxpH8ypeKDFnaDlWC8dsV8U6HdAxygJtejwRATrnUo2FpafnWF0ZdO\r\niWVfN0alVRau4wQ7g7flTLC0rTlvevXvZziJRdO9txOCDeu6Os6kRprB/rPO\r\nXhGG5mDxQxASjZFAmNUjqHW6jxGlw8vUpGvXz/Oh4V2vbgspEXcdc+RZOCMG\r\nkIFWYbF5SoHvihOzgBL3j1hZqtSLsS5ty3yRHMw+tgcdMJXNj10aLTc9HEOs\r\nx9izzJCoDK39yQSLP30YbR4YOfdQJ7vxJ+b1EoJMiBwtzQsf2gGBnsdXlnmK\r\nd4H/H5jiwoGARqjxoAVO/rX/+lQKCyLM0QE3V/tQxa5XCQ+zzQFFH1LpArnT\r\naNBgZUgBJ1VUFn4n1BU7Ldx+gLq5qkvTfFQ=\r\n=wPgM\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.14.0_1650398672918_0.9117974207339172"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.14.1": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.14.1",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.14.1",
+        "@magister_zito/eslint-config-vue": "^0.14.1",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.2.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-vue": "8.6.0",
+        "eslint-plugin-yml": "^0.14.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^0.5.0"
+      },
+      "devDependencies": { "eslint": "^8.12.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "b40c8e4075e998457ad119398590e6aff5c22f48",
+      "_id": "@magister_zito/eslint-config@0.14.1",
+      "_nodeVersion": "17.3.0",
+      "_npmVersion": "lerna/4.0.0/node@v17.3.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-wNahn8YvHaOq0zJl190XDN0LJ+fUetiOKYcKjLR0GPrZMvijQep4J3lvi+iTYgAG46RH8irQ97xYbks2Eydz/A==",
+        "shasum": "f9f3c873319cc302498cde12c9f3487d4ab2452a",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.14.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2279,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDAzh43758Gko1NzCZhxD2y8QHQ5eZ+gxzEr4jSTd6arAIhANptm3pPxgEALIaZSrI5/XKcgyjJhErkvsqtK7pzXu4a"
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJijpVEACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqPbBAAm9TsT5u4R9uj5m6fKXnxlc6kx+pePS5XKaMel6rQUuls2kax\r\nOdAjtl3KjMJYgbl///7hoZD2R/GrXvGB3T+r1e5lvAf+Fc3pTNlg5hv7dd8+\r\ng9HZtHeFABxMAMaRq0WJryzMjfFfLsO/V6UIdPo4DGYZju+2U05lEQE1n20V\r\nNfmoW0bGHTbM3/QBzob0EzR03cSYzaaX0e6qpBdehXnXmN4St8e5xN5AjBVS\r\nXu9kJ3bR/ZkVcnVaIzALhyMS6Mkfbhwu7VxPA/alPdoQjN9uDHzUpFoDCcap\r\nP1cgdNeu2RHuEK+d8xh/mjnmf9xvZPGdbJQybPJVt+Jx0NrOvzJdAtfOKurU\r\nML2l5EVqjXDBHWxu9hXCFjJHHWtqy23rQeXnzxHkJX+0SnMTOxYmca+nRiOI\r\nNDneDE6LsYv7froeSJYx9T0ki5nWaHV3DLe66DMz4lk+9Mg8qmim6fMOIzXA\r\nwlBSX5FLA5rytLmFGVfpM+4Rfp2ynsLBhbHn8wR9VsE8a9BcTSLlnQE1Sl/8\r\nXnZugyvOJBkVl3JgpBjJsIcnzNUHdsCU8IqYTn3jfGjZCL81969i3oqi8Wf5\r\n/lrprAtI/3dI6H7VQnsp2U9V4/aVzzIkFDGMpPX9OZyiRqv72XtMSGlSh5OC\r\nrLxzzIDJCaz1iodOMWwmJwebAjcN1nTKNuI=\r\n=Odmu\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.14.1_1653511492218_0.8562464845717528"
+      },
+      "_hasShrinkwrap": false
+    },
+    "0.15.0": {
+      "name": "@magister_zito/eslint-config",
+      "version": "0.15.0",
+      "license": "MIT",
+      "author": {
+        "name": "Matthew Zito",
+        "email": "matthewtzito@gmail.com",
+        "url": "goldmund"
+      },
+      "main": "index.js",
+      "peerDependencies": { "eslint": ">=8.0" },
+      "dependencies": {
+        "@magister_zito/eslint-config-react": "^0.15.0",
+        "@magister_zito/eslint-config-vue": "^0.15.0",
+        "@typescript-eslint/eslint-plugin": "^5.48.1",
+        "@typescript-eslint/parser": "^5.48.1",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^7.1.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsonc": "^2.6.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "6.1.1",
+        "eslint-plugin-vue": "9.8.0",
+        "eslint-plugin-yml": "^1.4.0",
+        "jsonc-eslint-parser": "^2.1.0",
+        "yaml-eslint-parser": "^1.1.0"
+      },
+      "devDependencies": { "eslint": "^8.31.0" },
+      "publishConfig": { "access": "public" },
+      "gitHead": "355dd78fcad5381a4c39dda21f7f08a6c178a69d",
+      "_id": "@magister_zito/eslint-config@0.15.0",
+      "_nodeVersion": "19.4.0",
+      "_npmVersion": "lerna/4.0.0/node@v19.4.0+x64 (linux)",
+      "dist": {
+        "integrity": "sha512-rcj3xpYM/6HtJXU+Mccs5AoipWQJydeyNJ3WLi9jRR2gh7ibuPdqI+0BeCisU8F8YQH7g+JLZ7yzeBi+lUdDCw==",
+        "shasum": "7f3dbcb32341bd6b3aaad2f415da14a4aaffe461",
+        "tarball": "https://registry.npmjs.org/@magister_zito/eslint-config/-/eslint-config-0.15.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2278,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDI+efLI0YBIZG6irc6/q+YEJirBnfpQyKLePCLQqasLwIgaqA0OA/6s344eG5KgcYncNewfKUuCukHn/VBgRqjYGI="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjvfe6ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrH0w//cWQRKFXNcjc3dqYg/JGd+NnSs42YoSRyBLaZd5PgOAEyyp9d\r\ngC6BXFWlfj1p5m5sciRnMF2A1F1LxP2O94hj6z5jdgdIho8mtFUA7pTezqnh\r\ncfQ6RMBVcYb+LyDWaGkY7v2sjPR33VItD9ZWLMmPVIjVgSW1/tezVHI8Suzx\r\nevarAPOvrvsPGmy+cQ5Pkm1V/aEMZrtzv6dzasnOBLESrCjo8XUH10xx53Nw\r\nSexDjNmMi8oh7NpcBtNJiNVF4yZiiN8zzc7PP0peqYTgK46ATVa11SYA08u3\r\nP+9fj3/if08gnVt5A6+YcF5kmhgMMdPX5+jfKZhnUrJdZL71RIJHbgycHBnI\r\nZct4gsR4RpUi8bvBig6L+QmqGDOK55d0tZAu6rmA4rmnrbDl4//kweoHZz/Y\r\nJBSyXwh/EpDyBCQjXyR3lo4AhxchsUF6Wz+itijQ8wZHXS6738YCG2mPmPJD\r\nh6OOts4dllyZR2ToewN3NcL3+aCDICpt/G7yRAjyfWEVvp7U+wRNDPow5lPC\r\nyw19qrZeSRrpVLXhf4zSJLB7G6ZWPquFLziiY7zIE2YfYDqwwoL5rstD0EmE\r\ngqBoJ59TqMQjxq0bOI9em0fJz27AL3z6X1siy0aOxHP5bMU9Vod4D77XFbv8\r\n9v1tmWYrvcnc8dkRJttiad+NiHHvjzGZAFQ=\r\n=WI/M\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": { "name": "magister_zito", "email": "exbotanical@gmail.com" },
+      "directories": {},
+      "maintainers": [
+        { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/eslint-config_0.15.0_1673394105974_0.24997502219899714"
+      },
+      "_hasShrinkwrap": false
+    }
+  },
+  "time": {
+    "created": "2021-09-15T04:35:03.173Z",
+    "0.0.2": "2021-09-15T04:35:03.380Z",
+    "modified": "2023-01-10T23:41:46.219Z",
+    "0.0.3": "2021-09-15T05:02:00.682Z",
+    "0.0.4": "2021-09-15T06:12:13.994Z",
+    "0.0.5": "2021-09-15T06:44:31.228Z",
+    "0.0.6": "2021-10-03T05:06:10.542Z",
+    "0.0.7": "2021-10-03T05:22:16.440Z",
+    "0.0.8": "2021-10-03T05:28:27.854Z",
+    "0.0.9": "2021-10-03T05:30:55.706Z",
+    "0.0.10": "2021-10-30T00:01:10.559Z",
+    "0.0.11": "2021-11-23T08:34:11.128Z",
+    "0.1.0": "2021-11-23T08:46:31.630Z",
+    "0.2.0": "2021-12-01T01:00:54.796Z",
+    "0.3.0": "2021-12-01T08:16:54.007Z",
+    "0.4.0": "2021-12-01T09:03:45.433Z",
+    "0.5.0": "2022-01-02T16:49:40.581Z",
+    "0.6.0": "2022-01-02T17:44:38.466Z",
+    "0.7.0": "2022-01-03T02:30:43.330Z",
+    "0.8.0": "2022-01-03T02:34:14.925Z",
+    "0.9.0": "2022-03-08T01:25:24.656Z",
+    "0.9.1": "2022-03-27T14:34:08.304Z",
+    "0.9.2": "2022-03-31T23:36:49.393Z",
+    "0.9.3": "2022-04-06T13:58:04.193Z",
+    "0.10.0": "2022-04-06T14:53:52.352Z",
+    "0.11.0": "2022-04-15T23:56:06.849Z",
+    "0.12.0": "2022-04-19T14:50:15.299Z",
+    "0.13.0": "2022-04-19T18:44:51.252Z",
+    "0.14.0": "2022-04-19T20:04:33.106Z",
+    "0.14.1": "2022-05-25T20:44:52.375Z",
+    "0.15.0": "2023-01-10T23:41:46.140Z"
+  },
+  "maintainers": [
+    { "name": "magister_zito", "email": "exbotanical@gmail.com" }
+  ],
+  "author": {
+    "name": "Matthew Zito",
+    "email": "matthewtzito@gmail.com",
+    "url": "goldmund"
+  },
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": ""
+}

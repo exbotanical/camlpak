@@ -1,3 +1,9 @@
 (test
- (name test_camlpak)
+ (name test_json)
+ (modules test_json)
  (libraries camlpak unix ounit2))
+
+(test
+ (name test_util)
+ (modules test_util)
+ (libraries camlpak ounit2))

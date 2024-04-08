@@ -1,4 +1,3 @@
 (executable
  (public_name camlpak)
- (name main)
- (libraries camlpak))
+ (name main))

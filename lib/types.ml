@@ -1,8 +1,19 @@
 type distribution = { shasum : string; tarball : string }
 
-type version_manifest_entry = {
-  dist : distribution;
+type manifest = {
+  name : string;
+  version : string;
+  description : string;
+  main : string;
+  author : string;
+  license : string;
+  keywords : string list;
+  directories : (string * string) list;
+  scripts : (string * string) list;
   dependencies : (string * string) list;
 }
 
-type version_manifest = (string, version_manifest_entry) Hashtbl.t
+type dep_entry_todo = {
+  dist : distribution;
+  dependencies : (string * string) list;
+}

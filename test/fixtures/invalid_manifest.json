@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "description": "some desc",
+  "main": "index.js",
+  "directories": {
+    "libk": "libv",
+    "testk": "testv"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["a", "b", "c", "d"],
+  "author": "the author",
+  "dependencies": {
+    "hello": "1.0.0",
+    "goodbye": "^2.3.1"
+  },
+  "license": "ISC"
+}
