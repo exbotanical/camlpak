@@ -15,6 +15,7 @@ let manifest_of_json raw_json =
     version = raw_json |> YojsonUtil.member "version" |> YojsonUtil.to_string;
     description =
       raw_json |> YojsonUtil.member "description" |> YojsonUtil.to_string;
+    (* TODO: these should not be required *)
     main = raw_json |> YojsonUtil.member "main" |> YojsonUtil.to_string;
     author = raw_json |> YojsonUtil.member "author" |> YojsonUtil.to_string;
     license = raw_json |> YojsonUtil.member "license" |> YojsonUtil.to_string;

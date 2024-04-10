@@ -1,17 +1,8 @@
 open OUnit2
 open Camlpak.Types
 
-let string_of_fixture fix =
-  let cwd = Unix.getcwd () in
-  let manifest_path = cwd ^ "/../../../test/fixtures/" ^ fix in
-  let channel = open_in manifest_path in
-  let file_content = In_channel.input_all channel in
-  close_in channel;
-  file_content
-
 let test_manifest_of_file_ok _ =
-  let cwd = Unix.getcwd () in
-  let manifest_path = cwd ^ "/../../../test/fixtures/valid_manifest.json" in
+  let manifest_path = Util.get_fixture_abs_path "valid_manifest.json" in
 
   let parsed = Camlpak.Json.manifest_of_file manifest_path in
 
@@ -51,16 +42,14 @@ let test_manifest_of_file_ok _ =
   assert_equal parsed.license "ISC"
 
 let test_manifest_of_file_missing_fields _ =
-  let cwd = Unix.getcwd () in
-  let manifest_path = cwd ^ "/../../../test/fixtures/invalid_manifest.json" in
+  let manifest_path = Util.get_fixture_abs_path "invalid_manifest.json" in
 
   assert_raises
     (Camlpak.Json.ManifestError "Parsing error: Expected string, got null")
     (fun () -> Camlpak.Json.manifest_of_file manifest_path)
 
 let test_manifest_of_file_bad_json _ =
-  let cwd = Unix.getcwd () in
-  let manifest_path = cwd ^ "/../../../test/fixtures/bad_json.json" in
+  let manifest_path = Util.get_fixture_abs_path "bad_json.json" in
 
   assert_raises
     (Camlpak.Json.ManifestError
@@ -71,7 +60,7 @@ let test_parse_manifest_list _ =
   let get_first (x, _) = x in
   let get_snd (_, y) = y in
 
-  let file_content = string_of_fixture "npm_fetched.json" in
+  let file_content = Util.string_of_fixture "npm_fetched.json" in
 
   let parsed = Camlpak.Json.dep_entry_list_of_json file_content in
 

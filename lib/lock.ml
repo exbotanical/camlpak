@@ -23,3 +23,5 @@ let get_dep (name : string) (v_constraint : string) =
 
       Some [ (v_constraint, entry) ]
   | None -> None
+
+let upsert (key : string) (value : lock_entry) = Hashtbl.add new_lock key value

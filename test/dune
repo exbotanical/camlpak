@@ -1,9 +1,29 @@
+(library
+ (name util)
+ (modules util)
+ (libraries unix))
+
 (test
  (name test_json)
  (modules test_json)
- (libraries camlpak unix ounit2))
+ (libraries camlpak unix ounit2 util))
 
 (test
  (name test_util)
  (modules test_util)
- (libraries camlpak ounit2))
+ (libraries camlpak ounit2 util))
+
+(test
+ (name test_lock)
+ (modules test_lock)
+ (libraries camlpak ounit2 util))
+
+(test
+ (name test_registry)
+ (modules test_registry)
+ (libraries camlpak ounit2 util))
+
+(test
+ (name test_deps)
+ (modules test_deps)
+ (libraries camlpak ounit2 util))
